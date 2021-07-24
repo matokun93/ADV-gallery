@@ -161,6 +161,12 @@ iframe {
 	.project-info p {
 		padding: 0 5vw;
 	}
+
+	.container {
+		background-image: url('./images/2.png');
+		background-position: center;
+		background-size: auto;
+	}
 }
 
 @media (max-width: 1100px) {
@@ -181,6 +187,10 @@ iframe {
 		flex-basis: 100%;
 		text-align: justify;
 		padding: 0 5vw;
+	}
+
+	.container {
+		background-image: none;
 	}
 }
 
@@ -204,9 +214,4 @@ iframe {
 		height: 550px;
 		padding: 5.3rem;
 	}
-
-	/* video {
-		height: 550px;
-		padding: 5.3rem;
-	} */
 }
