@@ -77,7 +77,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding: 15vh 0;
-	background-image: url('/static/2.png');
+	background-image: url('/images/2.png');
 	background-position: center;
 	background-size: contain;
 }
@@ -139,7 +139,7 @@ h1 {
 
 video {
 	padding: 6rem;
-	background-image: url('static/cellphone.png');
+	background-image: url('images/cellphone.png');
 	background-size: cover;
 	background-position: center;
 }
