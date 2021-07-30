@@ -58,6 +58,7 @@ body {
 	overflow-x: hidden;
 	color: rgb(26, 47, 71);
 	font-size: 16px;
+	color: whitesmoke;
 
 	background: #085078; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #85d8ce, #085078); /* Chrome 10-25, Safari 5.1-6 */
@@ -70,6 +71,8 @@ body {
 	background: #dd5e89; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #f7bb97, #dd5e89); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #f7bb97, #dd5e89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background: var(--clr-primary);
 }
 
 .container {
@@ -85,11 +88,10 @@ body {
 .content-container {
 	width: 80%;
 	background: rgba(255, 255, 255, 0.3);
-	box-shadow: 0 8px 32px 0 rgba(218, 117, 100, 0.596);
+	box-shadow: 0 8px 32px 0 rgba(91, 184, 238, 0.596);
 	backdrop-filter: blur(6.5px);
 	-webkit-backdrop-filter: blur(6.5px);
 	border-radius: 10px;
-	border: 1px solid rgba(255, 255, 255, 0.18);
 	padding: 10vh 0;
 }
 
@@ -109,7 +111,7 @@ h1 {
 .project-info p {
 	padding: 0 5vw;
 	font-size: 1.3em;
-	text-align: justify;
+	text-align: start;
 }
 
 .videos {
@@ -139,7 +141,7 @@ h1 {
 
 iframe {
 	padding: 3.3rem;
-	background-image: url('images/cellphone.png');
+	background-image: url('images/cell.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -185,7 +187,7 @@ iframe {
 
 	.text-section {
 		flex-basis: 100%;
-		text-align: justify;
+		text-align: start;
 		padding: 0 5vw;
 	}
 
@@ -213,5 +215,31 @@ iframe {
 	iframe {
 		height: 650px;
 		padding: 6.3rem;
+	}
+
+	.content-container {
+		width: 95%;
+	}
+}
+
+@media (max-width: 450px) {
+	body {
+		font-size: 12px;
+	}
+
+	.project-info p {
+		padding: 0 3vw;
+		font-size: 1.3em;
+	}
+
+	.text-section {
+		flex-basis: 100%;
+		text-align: left;
+		padding: 0 3vw;
+	}
+
+	iframe {
+		height: 550px;
+		padding: 5.3rem;
 	}
 }
