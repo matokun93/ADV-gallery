@@ -216,14 +216,12 @@ iframe {
 	}
 
 	.project-info p {
-		padding: 0 3vw;
 		font-size: 1.3em;
 	}
 
 	.text-section {
 		flex-basis: 100%;
 		text-align: left;
-		padding: 0 3vw;
 	}
 
 	iframe {
