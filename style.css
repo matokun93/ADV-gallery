@@ -188,14 +188,12 @@ iframe {
 	}
 
 	.project-info p {
-		padding: 0 5vw;
 		font-size: 1.3em;
 	}
 
 	.text-section {
 		flex-basis: 100%;
 		text-align: left;
-		padding: 0 5vw;
 	}
 
 	iframe {
@@ -203,8 +201,12 @@ iframe {
 		padding: 6.3rem;
 	}
 
-	.content-container {
-		width: 95%;
+	.videos {
+		width: 90%;
+	}
+
+	.project-info-content {
+		width: 90%;
 	}
 }
 
